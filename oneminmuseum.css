@@ -1,7 +1,9 @@
 
 body {
   /*background-color: powderblue;*/
-  background-image: url('purplegradient.jpg');
+    background-image: url('purplegradient.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 h1 {
