@@ -1,12 +1,16 @@
 
 body {
-  /*background-color: powderblue;*/
-    background-image: url('purplegradient.jpg');
+  /*background-color: powderblue;
+    background-image: url('purplegradient.jpg'); */
+    background-image: url('gradient-wallpaper-blue-and-purple.webp');
     background-repeat:no-repeat;
     background-size:cover;
 }
 
+/*gradient-wallpaper-blue-and-purple.webp */
+
 h1 {
+    font-weight: bold;
     color: white;
     text-align: center;
 }
