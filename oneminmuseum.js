@@ -30,4 +30,13 @@ function funfact2(){
 const button4 = document.getElementById("exhbit4")
 button4.addEventListener("click", funfact2)
 
+function image2(){
+    const myImage2 = new Image(100, 200);
+    myImage2.src = "highlands.jpg";
+    document.body.appendChild(myImage2); 
+    document.getElementById("exhbit5").innerHTML = Image(); 
+}
+
+const button5 = document.getElementById("exhibit5")
+button5.addEventListener("click", image2)
 
