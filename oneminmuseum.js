@@ -37,6 +37,6 @@ function image2(){
     document.getElementById("exhbit5").innerHTML = Image(); 
 }
 
-const button5 = document.getElementById("exhibit5")
+const button5 = document.getElementById("exhbit5")
 button5.addEventListener("click", image2)
 
