@@ -24,7 +24,7 @@ const button3 = document.getElementById("exhbit3")
 button3.addEventListener("click", funfact1)
 
 function funfact2(){
-    document.getElementById("exhbit4").innerHTML = "Spit will instantly harden super glue!!"
+    document.getElementById("exhbit4").innerHTML = "Spit will instantly harden super glue."
 }
 
 const button4 = document.getElementById("exhbit4")
@@ -40,3 +40,9 @@ function image2(){
 const button5 = document.getElementById("exhbit5")
 button5.addEventListener("click", image2)
 
+function funfact3(){
+    document.getElementById("exhbit6").innerHTML = "Chainsaws were first invented for childbirth!!"
+
+}
+const button6 = document.getElementById("exhbit6")
+button6.addEventListener("click", funfact3)
