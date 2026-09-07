@@ -46,3 +46,9 @@ function funfact3(){
 }
 const button6 = document.getElementById("exhbit6")
 button6.addEventListener("click", funfact3)
+
+function funfact4(){
+    document.getElementById("exhbit7").innerHTML = "Stare out the window for a minute..."
+}
+const button7 = document.getElementById("exhbit7")
+button7.addEventListener("click", funfact4)
