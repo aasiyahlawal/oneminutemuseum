@@ -1,6 +1,11 @@
 
 function date() {
-    document.getElementById("exhibit1").innerHTML = Date();
+    if (button1.innerHTML.trim() == "Exhibit 1"){
+        button1.innerHTML = Date()
+    }
+    else{
+        button1.innerHTML = "Exhibit 1";
+    }
 }
 
 const button1 = document.getElementById("exhibit1");
@@ -16,11 +21,8 @@ function image(){ /*append child adds multiple images when exhbit 2 button click
 const button2 = document.getElementById("exhibit2")
 button2.addEventListener("click", image)
 
-const button3 = document.getElementById("exhibit3")
-button3.addEventListener("click", funfact1)
 
-function funfact1(){   
-    //document.getElementById("exhbit3").innerHTML = "A cloud weight around a million tonnes";
+function funfact1(){    
     if (button3.innerHTML.trim() == "Exhibit 3"){
         button3.innerHTML = "A cloud weight around a million tonnes";
     }
@@ -29,8 +31,8 @@ function funfact1(){
     }
 }
 
-//const button3 = document.getElementById("exhbit3")
-//button3.addEventListener("click", funfact1)
+const button3 = document.getElementById("exhibit3")
+button3.addEventListener("click", funfact1)
 
 function funfact2(){
     document.getElementById("exhibit4").innerHTML = "Spit will instantly harden super glue."
