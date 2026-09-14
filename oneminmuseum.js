@@ -35,7 +35,12 @@ const button3 = document.getElementById("exhibit3")
 button3.addEventListener("click", funfact1)
 
 function funfact2(){
-    document.getElementById("exhibit4").innerHTML = "Spit will instantly harden super glue."
+    if (button4.innerHTML.trim() == "Exhibit 4"){
+        button4.innerHTML = "Spit will instantly harden super glue.";
+    }
+    else{
+        button4.innerHTML = "Exhibit 4";
+    }
 }
 
 const button4 = document.getElementById("exhibit4")
@@ -52,14 +57,24 @@ const button5 = document.getElementById("exhibit5")
 button5.addEventListener("click", image2)
 
 function funfact3(){
-    document.getElementById("exhibit6").innerHTML = "Chainsaws were first invented for childbirth!!"
+    if (button6.innerHTML.trim() == "Exhibit 6"){
+        button6.innerHTML = "Chainsaws were first invented for childbirth!!";
+    }
+    else{
+        button6.innerHTML = "Exhibit 6";
+    }
 
 }
 const button6 = document.getElementById("exhibit6")
 button6.addEventListener("click", funfact3)
 
 function funfact4(){
-    document.getElementById("exhibit7").innerHTML = "Stare out the window for a minute..."
+    if (button7.innerHTML.trim() == "Exhibit 7"){
+        button7.innerHTML = "Stare out the window for a minute...";
+    }
+    else{
+        button7.innerHTML = "Exhibit 7";
+    }
 }
 const button7 = document.getElementById("exhibit7")
 button7.addEventListener("click", funfact4)
