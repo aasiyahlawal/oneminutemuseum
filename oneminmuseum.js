@@ -78,3 +78,14 @@ function funfact4(){
 }
 const button7 = document.getElementById("exhibit7")
 button7.addEventListener("click", funfact4)
+
+function funfact5(){
+    if (button8.innerHTML.trim() == "Exhibit 8"){
+        button8.innerHTML = "The capital of Scotland is Edinburgh";
+    }
+    else{
+        button8.innerHTML = "Exhibit 8";
+    }
+}
+const button8 = document.getElementById("exhibit8")
+button8.addEventListener("click", funfact5)
