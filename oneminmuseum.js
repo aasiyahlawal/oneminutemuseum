@@ -89,3 +89,14 @@ function funfact5(){
 }
 const button8 = document.getElementById("exhibit8")
 button8.addEventListener("click", funfact5)
+
+function funfact6(){
+    if (button9.innerHTML.trim() == "Exhibit 9"){
+        button9.innerHTML = "Pressure makes diamonds";
+    }
+    else{
+        button9.innerHTML = "Exhibit 9";
+    }
+}
+const button9 = document.getElementById("exhibit9")
+button9.addEventListener("click", funfact6)
